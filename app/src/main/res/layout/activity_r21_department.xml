@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".departments.reg21.R21DepartmentActivity">
+
+    <LinearLayout
+        android:id="@+id/linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:scrollbars="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:fontFamily="@font/lato_bold"
+            android:text="select your department"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/csebtn"
+            android:layout_width="match_parent"
+            android:fontFamily="@font/lato_bold"
+            android:layout_height="55dp"
+            android:text="be computer science and engineering" />
+
+
+
+        <Button
+            android:id="@+id/eeebtn"
+            android:layout_width="match_parent"
+            android:fontFamily="@font/lato_bold"
+            android:layout_height="55dp"
+            android:text="BE Electrical and Electronics Engineering " />
+
+        <Button
+            android:id="@+id/ecebtn"
+            android:layout_width="match_parent"
+            android:fontFamily="@font/lato_bold"
+            android:layout_height="55dp"
+            android:text="BE Electronics and Communication Engineering" />
+
+        <Button
+            android:id="@+id/aerobtn"
+            android:layout_width="match_parent"
+            android:fontFamily="@font/lato_bold"
+            android:layout_height="55dp"
+            android:text="BE Aeronautical Engineering" />
+
+        <Button
+            android:id="@+id/itbtn"
+            android:layout_width="match_parent"
+            android:fontFamily="@font/lato_bold"
+            android:layout_height="55dp"
+            android:text="B.Tech Information Technology" />
+
+        <Button
+            android:id="@+id/mechbtn"
+            android:layout_width="match_parent"
+            android:fontFamily="@font/lato_bold"
+            android:layout_height="55dp"
+            android:text="BE Mechanical Engineering " />
+
+        <Button
+            android:id="@+id/bmebtn"
+            android:layout_width="match_parent"
+            android:fontFamily="@font/lato_bold"
+            android:layout_height="55dp"
+            android:text="BE Biomedical Engineering" />
+
+        <Button
+            android:id="@+id/foodbtn"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:fontFamily="@font/lato_bold"
+            android:text="B.TECH Food Technology" />
+
+        <Button
+            android:id="@+id/agribtn"
+            android:layout_width="match_parent"
+            android:fontFamily="@font/lato_bold"
+            android:layout_height="55dp"
+            android:text="B.Tech Agricultural Engineering" />
+
+        <Button
+            android:id="@+id/civilbtn"
+            android:layout_width="match_parent"
+            android:fontFamily="@font/lato_bold"
+            android:layout_height="55dp"
+            android:text="BE Civil Engineering" />
+
+        <Button
+            android:id="@+id/cyberbtn"
+            android:layout_width="match_parent"
+            android:fontFamily="@font/lato_bold"
+            android:layout_height="55dp"
+            android:text="BE Cyber Security" />
+
+        <Button
+            android:id="@+id/aidsbtn"
+            android:layout_width="match_parent"
+            android:fontFamily="@font/lato_bold"
+            android:layout_height="55dp"
+            android:text="B.Tech Artificial Intelligence and Data Science" />
+
+        <Button
+            android:id="@+id/mbabtn"
+            android:layout_width="match_parent"
+            android:fontFamily="@font/lato_bold"
+            android:layout_height="55dp"
+            android:text="MBA" />
+
+        <Button
+            android:id="@+id/mcabtn"
+            android:layout_width="match_parent"
+            android:fontFamily="@font/lato_bold"
+            android:layout_height="55dp"
+            android:text="MCA" />
+        <Button
+            android:id="@+id/mecsebtn"
+            android:layout_width="match_parent"
+            android:fontFamily="@font/lato_bold"
+            android:layout_height="55dp"
+            android:text="ME Computer Science and Engineering" />
+
+        <Button
+            android:id="@+id/mepedbtn"
+            android:layout_width="match_parent"
+            android:fontFamily="@font/lato_bold"
+            android:layout_height="55dp"
+            android:text="ME Power Electronics and Drives" />
+
+        <Button
+            android:id="@+id/mecsbtn"
+            android:layout_width="match_parent"
+            android:fontFamily="@font/lato_bold"
+            android:layout_height="55dp"
+            android:text="ME Communication Systems" />
+
+        <Button
+            android:id="@+id/meaerobtn"
+            android:layout_width="match_parent"
+            android:fontFamily="@font/lato_bold"
+            android:layout_height="55dp"
+            android:text="ME Aeronautical Engineering" />
+
+    </LinearLayout>
+</ScrollView>

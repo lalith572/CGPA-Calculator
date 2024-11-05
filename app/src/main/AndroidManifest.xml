@@ -1,0 +1,873 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.aucgpagpacalculator">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AUCGPAGPACalculator"
+        tools:targetApi="31">
+        <activity
+            android:name=".McaS6Activity"
+            android:exported="false" />
+        <activity
+            android:name=".McaS5Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.meped.R21MepedS4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.meped.R21MepedS3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.meped.R21MepedS2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.meped.R21MepedS1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.meped.R21MepedActivity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.mecse.R21MecseS4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.mecse.R21MecseS3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.mecse.R21MecseS2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.mecse.R21MecseS1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.mecse.R21MecseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.mecs.R21MecsS4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.mecs.R21MecsS3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.mecs.R21MecsS2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.mecs.R21MecsS1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.mecs.R21MecsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.mech.R21MechS8Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.mech.R21MechS7Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.mech.R21MechS6Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.mech.R21MechS5Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.mech.R21MechS4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.mech.R21MechS3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.mech.R21MechS2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.mech.R21MechS1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.mech.R21MechActivity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.meaero.R21MeaeroS4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.meaero.R21MeaeroS3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.meaero.R21MeaeroS2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.meaero.R21MeaeroS1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.meaero.R21MeaeroActivity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.mca.R21McaS4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.mca.R21McaS3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.mca.R21McaS2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.mca.R21McaS1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.mca.R21McaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.mba.R21MbaS4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.mba.R21MbaS3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.mba.R21MbaS2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.mba.R21MbaS1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.mba.R21MbaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.it.R21ItS8Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.it.R21ItS7Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.it.R21ItS6Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.it.R21ItS5Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.it.R21ItS4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.it.R21ItS3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.it.R21ItS2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.it.R21ItS1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.it.R21ItActivity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.food.R21FoodS8Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.food.R21FoodS7Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.food.R21FoodS6Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.food.R21FoodS5Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.food.R21FoodS4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.food.R21FoodS3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.food.R21FoodS2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.food.R21FoodS1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.food.R21FoodActivity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.eee.R21EeeS8Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.eee.R21EeeS7Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.eee.R21EeeS6Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.eee.R21EeeS5Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.eee.R21EeeS4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.eee.R21EeeS3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.eee.R21EeeS2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.eee.R21EeeS1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.eee.R21EeeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.ece.R21EceS8Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.ece.R21EceS7Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.ece.R21EceS6Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.ece.R21EceS5Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.ece.R21EceS4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.ece.R21EceS3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.ece.R21EceS2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.ece.R21EceS1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.ece.R21EceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.cybersec.R21CybersecS8Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.cybersec.R21CybersecS7Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.cybersec.R21CybersecS6Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.cybersec.R21CybersecS5Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.cybersec.R21CybersecS4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.cybersec.R21CybersecS3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.cybersec.R21CybersecS2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.cybersec.R21CybersecS1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.cybersec.R21CybersecActivity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.cse.R21CseS8Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.cse.R21CseS7Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.cse.R21CseS6Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.cse.R21CseS5Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.cse.R21CseS4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.cse.R21CseS3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.cse.R21CseS2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.cse.R21CseS1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.cse.R21CseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.civil.R21CivilS8Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.civil.R21CivilS7Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.civil.R21CivilS6Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.civil.R21CivilS5Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.civil.R21CivilS4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.civil.R21CivilS3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.civil.R21CivilS2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.civil.R21CivilS1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.civil.R21CivilActivity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.bme.R21BmeS8Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.bme.R21BmeS7Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.bme.R21BmeS6Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.bme.R21BmeS5Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.bme.R21BmeS4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.bme.R21BmeS3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.bme.R21BmeS2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.bme.R21BmeS1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.bme.R21BmeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.aids.R21AidsS8Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.aids.R21AidsS7Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.aids.R21AidsS6Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.aids.R21AidsS5Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.aids.R21AidsS4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.aids.R21AidsS3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.aids.R21AidsS2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.aids.R21AidsS1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.aids.R21AidsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.agri.R21AgriS8Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.agri.R21AgriS7Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.agri.R21AgriS6Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.agri.R21AgriS5Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.agri.R21AgriS4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.agri.R21AgriS3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.agri.R21AgriS2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.agri.R21AgriS1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.agri.R21AgriActivity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.aero.R21AeroS8Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.aero.R21AeroS7Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.aero.R21AeroS6Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.aero.R21AeroS5Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.aero.R21AeroS4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.aero.R21AeroS3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.aero.R21AeroS2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.aero.R21AeroS1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.aero.R21AeroActivity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.meped.MepedS4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.meped.MepedS3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.meped.MepedS2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.meped.MepedS1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.mecse.MecseS4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.mecse.MecseS3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.mecse.MecseS2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.mecse.MecseS1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.mecs.MecsS4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.mecs.MecsS3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.mecs.MecsS2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.mecs.MecsS1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.mech.MechS8Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.mech.MechS7Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.mech.MechS6Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.mech.MechS5Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.mech.MechS4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.mech.MechS3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.mech.MechS2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.mech.MechS1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.meaero.MeaeroS4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.meaero.MeaeroS3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.meaero.MeaeroS2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.meaero.MeaeroS1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.mca.McaS4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.mca.McaS3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.mca.McaS2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.mca.McaS1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.mba.MbaS4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.mba.MbaS3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.mba.MbaS2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.mba.MbaS1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.it.ItS8Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.it.ItS7Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.it.ItS6Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.it.ItS5Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.it.ItS4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.it.ItS3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.it.ItS2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.it.ItS1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.food.FoodS8Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.food.FoodS7Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.food.FoodS6Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.food.FoodS5Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.food.FoodS4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.food.FoodS3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.food.FoodS2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.food.FoodS1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.eee.EeeS8Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.eee.EeeS7Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.eee.EeeS6Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.eee.EeeS5Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.eee.EeeS4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.eee.EeeS3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.eee.EeeS2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.eee.EeeS1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.ece.EceS8Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.ece.EceS7Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.ece.EceS6Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.ece.EceS5Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.ece.EceS4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.ece.EceS3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.ece.EceS2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.ece.EceS1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.cybersec.CybersecS8Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.cybersec.CybersecS7Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.cybersec.CybersecS6Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.cybersec.CybersecS5Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.cybersec.CybersecS4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.cybersec.CybersecS3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.cybersec.CybersecS2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.cybersec.CybersecS1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.cse.CseS8Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.cse.CseS7Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.cse.CseS6Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.cse.CseS5Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.cse.CseS4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.cse.CseS3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.cse.CseS2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.cse.CseS1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.civil.CivilS8Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.civil.CivilS7Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.civil.CivilS6Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.civil.CivilS5Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.civil.CivilS4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.civil.CivilS3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.civil.CivilS2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.civil.CivilS1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.bme.BmeS8Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.bme.BmeS7Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.bme.BmeS6Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.bme.BmeS5Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.bme.BmeS4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.bme.BmeS3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.bme.BmeS2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.bme.BmeS1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.aids.AidsS8Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.aids.AidsS7Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.aids.AidsS6Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.aids.AidsS5Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.aids.AidsS4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.aids.AidsS3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.aids.AidsS2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.aids.AidsS1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.agri.AgriS8Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.agri.AgriS7Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.agri.AgriS6Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.agri.AgriS5Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.agri.AgriS4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.agri.AgriS3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.agri.AgriS2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.agri.AgriS1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.meped.MepedActivity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.mecse.MecseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.mecs.MecsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.mech.MechActivity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.meaero.MeaeroActivity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.mca.McaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.mba.MbaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.it.ItActivity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.food.FoodActivity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.eee.EeeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.ece.EceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.cybersec.CybersecActivity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.cse.CseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.civil.CivilActivity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.bme.BmeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.agri.AgriActivity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.aero.AeroS8Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.aero.AeroS7Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.aero.AeroS6Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.aero.AeroS5Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.aero.AeroS4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.aero.AeroS3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.aero.AeroS2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.aero.AeroS1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.aero.AeroActivity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg21.R21DepartmentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".departments.reg17.DepartmentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CGPAActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SelectActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegulationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
